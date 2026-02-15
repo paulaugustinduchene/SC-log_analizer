@@ -1,0 +1,52 @@
+===========================================================
+                STAR CITIZEN - LOG ANALYSER
+                      VERSION 1.0.0
+===========================================================
+
+BIENVENUE DANS LE VERSE, PILOTE.
+
+Cet outil a été conçu pour scanner vos journaux de vol (Game.log) 
+et extraire précisément votre temps de jeu réel dans Star Citizen.
+Il génère une analyse graphique de votre activité mensuelle.
+
+-----------------------------------------------------------
+   COMMENT UTILISER L'APPLICATION
+-----------------------------------------------------------
+1. Vérifiez le chemin des logs dans le menu OPTIONS (par défaut 
+   le chemin standard de la version LIVE est utilisé).
+2. Cliquez sur "EXTRACT" pour lancer le scan.
+3. Patientez pendant l'analyse (une barre de progression s'affiche).
+4. Vos statistiques et votre graphique apparaîtront automatiquement.
+
+-----------------------------------------------------------
+   PROBLÈMES CONNUS (KNOWN ISSUES)
+-----------------------------------------------------------
+
+* ERREUR AU LANCEMENT ("Failed to start embedded Python") :
+  Ce message peut apparaître brièvement lors de l'ouverture de 
+  la version "Single Exe". 
+  -> CAUSE : Ce délai est dû à la décompression des composants 
+     système dans votre dossier temporaire.
+  -> SOLUTION : Ignorez le message, l'application se lancera 
+     normalement après quelques secondes.
+
+* INTERFACE DE NAVIGATION :
+  Une fois l'analyse terminée et le graphique affiché, il n'existe 
+  actuellement pas de bouton "RETOUR" pour revenir à l'accueil.
+  -> SOLUTION : Pour effectuer un nouveau scan ou changer de 
+     chemin de logs, veuillez redémarrer l'application. 
+     (Sera corrigé dans la V1.1).
+
+-----------------------------------------------------------
+   NOTES TECHNIQUES
+-----------------------------------------------------------
+- L'application est en lecture seule : elle ne modifie aucun 
+  fichier de votre installation Star Citizen.
+- Les données sont traitées localement sur votre machine.
+- Ce projet n'est pas affilié au groupe de sociétés Cloud 
+  Imperium ou Roberts Space Industries.
+
+-----------------------------------------------------------
+Développé par M4l0tru
+Made by the Community
+-----------------------------------------------------------
